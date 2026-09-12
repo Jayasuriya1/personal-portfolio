@@ -42,7 +42,7 @@ export const portfolioData: PortfolioData = {
   greeting: "Hello 👋",
   tagline: "I'm Jayasuriya Sudhakar",
   bio: "Software Engineer specializing in full-stack and backend systems. Focused on clean architecture, NestJS, React, TypeScript, and database optimization.",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "https://drive.google.com/file/d/1nZHgyApRwS9T5efFrHkwYzAwFCI2Uo3m/view?usp=sharing",
 
   about: {
     paragraphs: [

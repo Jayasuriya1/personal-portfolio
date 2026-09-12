@@ -49,10 +49,12 @@ export const HomeHero: React.FC<HomeHeroProps> = ({ setPage }) => {
           </p>
           <a
             href={portfolioData.resumeUrl}
-            download
-            className="inline-block bg-[var(--accent)] text-[#1a1a1a] font-heading font-bold text-sm px-7 py-3.5 rounded-xl w-fit hover:opacity-90 hover:-translate-y-0.5 transition-all duration-200 shadow-lg shadow-[var(--accent)]/10"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-[var(--accent)] text-[#1a1a1a] font-heading font-bold text-sm px-7 py-3.5 rounded-xl w-fit hover:opacity-90 hover:-translate-y-0.5 transition-all duration-200 shadow-lg shadow-[var(--accent)]/10"
           >
-            Download Resume ↓
+            <span>Download Resume</span>
+            <span>↓</span>
           </a>
         </div>
 
